@@ -1,0 +1,6 @@
+{
+  "name": "InnerBloom Somatic Psychotherapy",
+  "description": "InnerBloom Somatic Psychotherapy and Women's Wellness responsive website with Home, About, and Services pages, interactive forms, and seamless looping video.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
