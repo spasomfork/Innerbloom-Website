@@ -75,10 +75,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <p className="leading-snug">{SITE_INFO.address}</p>
               <p>
                 <a
-                  href={`tel:${SITE_INFO.phoneSecondary.replace(/\s+/g, '')}`}
+                  href={`tel:${SITE_INFO.phoneRaw}`}
                   className="hover:text-white transition-colors"
                 >
-                  {SITE_INFO.phoneSecondary}
+                  {SITE_INFO.phone}
                 </a>
               </p>
               <p>
@@ -158,7 +158,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="space-y-4">
             <h4 className="text-base font-semibold text-white tracking-wider">Get In Touch</h4>
             <p className="text-sm text-[#94a890]">
-              An attractive line about the heading above.
+              Follow our community updates and mindfulness practices.
             </p>
             <div className="flex items-center gap-2.5 pt-1">
               <a

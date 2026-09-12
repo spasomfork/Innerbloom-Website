@@ -76,8 +76,8 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             elType: 'widget',
             widgetType: 'button',
             settings: {
-              text: '113 334 433 221',
-              link: { url: 'tel:113334433221' },
+              text: '+1 (555) 334-4321',
+              link: { url: 'tel:+15553344321' },
               selected_icon: { value: 'fas fa-phone', library: 'fa-solid' },
               button_type: 'default',
               typography_font_size: { unit: 'px', size: 18 },
@@ -190,8 +190,8 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             widgetType: 'testimonial',
             settings: {
               testimonial_content: 'If you are looking for some awesome, knowledgeable people to work with, these are the guys I highly recommend.',
-              testimonial_name: 'Firstname Surname',
-              testimonial_job: 'DESIGNER',
+              testimonial_name: 'Elena Vance',
+              testimonial_job: 'PRODUCT DESIGNER',
             },
           },
         ],
@@ -261,7 +261,7 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             elType: 'widget',
             widgetType: 'text-editor',
             settings: {
-              editor: 'Hi, I\'m [Your Name]. As a somatic therapist, I specialize in helping women heal from trauma and anxiety by reconnecting with their bodies...',
+              editor: 'Hi, I\'m Dr. Evelyn Sterling, licensed somatic psychotherapist and founder of InnerBloom. For more than twelve years, I have walked alongside women reclaiming their calm, grounded essence from trauma, burnout, and chronic nervous system exhaustion...',
               align: 'center',
               text_color: '#f3f4f6',
             },
@@ -279,7 +279,7 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             settings: {
               selected_icon: { value: 'fas fa-user-alt', library: 'fa-solid' },
               title_text: 'Mission',
-              description_text: 'At InnerBloom, we are guided by compassion, authenticity, and the belief in every woman\'s potential for growth.',
+              description_text: 'To provide an unhurried, compassionate sanctuary where women can safely unwind chronic trauma, regulate their nervous systems, and reclaim embodiment.',
             },
           },
           {
@@ -288,7 +288,7 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             settings: {
               selected_icon: { value: 'fas fa-lightbulb', library: 'fa-solid' },
               title_text: 'Vision',
-              description_text: 'At InnerBloom, we are guided by compassion, authenticity, and the belief in every woman\'s potential for growth.',
+              description_text: 'To pioneer an integrative standard of mental health where emotional recovery is experienced through bodily safety and neurological harmony.',
             },
           },
           {
@@ -297,7 +297,7 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             settings: {
               selected_icon: { value: 'fas fa-trophy', library: 'fa-solid' },
               title_text: 'Values',
-              description_text: 'At InnerBloom, we are guided by compassion, authenticity, and the belief in every woman\'s potential for growth.',
+              description_text: 'Rooted in embodied presence, trauma-informed respect, radical empathy, and holistic authenticity.',
             },
           },
         ],
@@ -350,8 +350,8 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             widgetType: 'image-box',
             settings: {
               image: { url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac' },
-              title_text: 'Mindfulness-Based Therapy:',
-              description_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+              title_text: 'Mindfulness-Based Somatic Therapy',
+              description_text: 'Learn to listen to your body’s felt senses, disarm unconscious stress loops, and re-establish inner stillness using mindful somatosensory grounding.',
             },
           },
           {
@@ -359,8 +359,8 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             widgetType: 'image-box',
             settings: {
               image: { url: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946' },
-              title_text: 'Trauma Recovery',
-              description_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+              title_text: 'Trauma Recovery & Nervous System Reset',
+              description_text: 'A gentle, non-cathartic approach to processing shock and developmental trauma by restoring vagal tone and releasing trapped physiological fight-or-flight energy.',
             },
           },
           {
@@ -368,8 +368,8 @@ export const ElementorTemplateModal: React.FC<ElementorTemplateModalProps> = ({
             widgetType: 'image-box',
             settings: {
               image: { url: 'https://images.unsplash.com/photo-1530968033775-2c92736b131e' },
-              title_text: 'Emotional Transitions',
-              description_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+              title_text: 'Life & Emotional Transitions Support',
+              description_text: 'Navigate career shifts, motherhood transitions, grief, or personal rebirth with emotional containment, body-based confidence, and aligned boundary work.',
             },
           },
         ],

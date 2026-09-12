@@ -7,7 +7,6 @@ import { AboutPage } from './components/AboutPage';
 import { ServicesPage } from './components/ServicesPage';
 import { BookingModal } from './components/BookingModal';
 import { ElementorTemplateModal } from './components/ElementorTemplateModal';
-import { BookOpen, Sparkles, Home, Info, Wrench } from 'lucide-react';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<PageId>('home');
@@ -44,7 +43,6 @@ export default function App() {
         currentPage={currentPage}
         onNavigate={handleNavigate}
         onOpenBooking={() => setBookingModalOpen(true)}
-        onOpenElementorModal={() => setElementorModalOpen(true)}
       />
 
       {/* Main Content Pages */}
@@ -140,49 +138,6 @@ export default function App() {
           </section>
         )}
       </main>
-
-      {/* Floating Quick Page Switcher for convenience on mobile & desktop */}
-      <div
-        id="quick-page-dock"
-        className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 bg-[#152014]/90 backdrop-blur-md px-3 py-1.5 rounded-full border border-emerald-600/30 shadow-2xl flex items-center gap-1 sm:gap-2 text-xs"
-      >
-        <span className="text-[10px] uppercase font-bold text-emerald-300/80 px-1 hidden sm:inline">
-          Pages:
-        </span>
-        <button
-          onClick={() => handleNavigate('home')}
-          className={`flex items-center gap-1 px-2.5 py-1 rounded-full font-medium transition-all cursor-pointer ${
-            currentPage === 'home'
-              ? 'bg-[#5e8252] text-white shadow-sm'
-              : 'text-gray-300 hover:text-white'
-          }`}
-        >
-          <Home className="w-3.5 h-3.5" />
-          <span>Home</span>
-        </button>
-        <button
-          onClick={() => handleNavigate('about')}
-          className={`flex items-center gap-1 px-2.5 py-1 rounded-full font-medium transition-all cursor-pointer ${
-            currentPage === 'about'
-              ? 'bg-[#5e8252] text-white shadow-sm'
-              : 'text-gray-300 hover:text-white'
-          }`}
-        >
-          <Info className="w-3.5 h-3.5" />
-          <span>About</span>
-        </button>
-        <button
-          onClick={() => handleNavigate('services')}
-          className={`flex items-center gap-1 px-2.5 py-1 rounded-full font-medium transition-all cursor-pointer ${
-            currentPage === 'services'
-              ? 'bg-[#5e8252] text-white shadow-sm'
-              : 'text-gray-300 hover:text-white'
-          }`}
-        >
-          <Wrench className="w-3.5 h-3.5" />
-          <span>Services</span>
-        </button>
-      </div>
 
       {/* Site Footer */}
       <Footer onNavigate={handleNavigate} />

@@ -63,8 +63,7 @@ In addition to serving as a standalone web application, it features an **Element
 ## 4. Feature Breakdown & Page Layouts
 
 ### 4.1 Home Page
-- **Hero Section**: Full-bleed nature photography background with high-contrast text, phone hotline (`113 334 433 221`), and "Book A Session" button.
-- **About Us Banner**: Clickable floral landscape banner directing visitors seamlessly to the About page.
+- **Hero Section**: Full-bleed nature photography background with high-contrast text, phone hotline (`+1 (555) 334-4321`), and "Book A Session" button.
 - **Why Choose Us Grid**: 4 feature cards (**Personalized Care**, **Experienced & Compassionate Therapist**, **Safe & Nurturing Environment**, **Focus on Women's Wellness**), followed by dual high-resolution photography and 4 statistical metrics (Home Delivery, Happy People, Tons Of Goods, Personalization Of Sessions).
 - **Our Services Showcase**: Split view featuring a serene garden photo with accent badge and 5 core service offerings with direct linking to the Services page.
 - **What Our Clients Say**: 3 dark testimonial cards styled with serif quotation text, circular avatar portraits, and author titles.

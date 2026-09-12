@@ -13,8 +13,7 @@ A modern, responsive psychotherapy website designed for **InnerBloom Somatic Psy
 ## 🌟 Key Features
 
 - **Home Page**:
-  - Hero with phone hotline link (`113 334 433 221`) and direct booking action
-  - Clickable "About Us" banner linking seamlessly to the About page
+  - Hero with phone hotline link (`+1 (555) 334-4321`) and direct booking action
   - "Why Choose Us" 4-feature grid with dual photography and animated metric counters
   - "Our Services" showcase with floral garden imagery and direct service links
   - Dark client testimonial cards with quotes and author details

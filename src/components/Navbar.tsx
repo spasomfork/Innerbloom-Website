@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { PageId } from '../types';
-import { Menu, X, Phone, Code2 } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
+import { SITE_INFO } from '../data';
 
 interface NavbarProps {
   currentPage: PageId;
   onNavigate: (page: PageId) => void;
   onOpenBooking: () => void;
-  onOpenElementorModal: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
   currentPage,
   onNavigate,
   onOpenBooking,
-  onOpenElementorModal,
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -115,19 +114,8 @@ export const Navbar: React.FC<NavbarProps> = ({
           })}
         </nav>
 
-        {/* Right Actions: Elementor JSON preview & Book A Call CTA */}
+        {/* Right Actions: Book A Call CTA */}
         <div className="hidden sm:flex items-center gap-3">
-          {/* Elementor template button */}
-          <button
-            id="open-elementor-template-btn"
-            onClick={onOpenElementorModal}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium text-emerald-200/90 hover:text-emerald-100 bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-500/30 transition-all cursor-pointer"
-            title="View Native Elementor JSON Templates"
-          >
-            <Code2 className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Elementor JSON</span>
-          </button>
-
           {/* Book A Call CTA Button */}
           <button
             id="book-a-call-nav-btn"
@@ -140,14 +128,6 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Mobile menu trigger */}
         <div className="flex sm:hidden items-center gap-2">
-          <button
-            id="mobile-elementor-btn"
-            onClick={onOpenElementorModal}
-            className="p-2 text-emerald-300 bg-emerald-950/40 border border-emerald-500/30 rounded-full"
-            aria-label="Elementor template"
-          >
-            <Code2 className="w-4 h-4" />
-          </button>
           <button
             id="mobile-menu-toggle-btn"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -193,10 +173,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               Book A Call
             </button>
-            <div className="flex items-center justify-center gap-2 text-xs text-emerald-200/80 py-1">
+            <a
+              id="mobile-nav-phone-link"
+              href={`tel:${SITE_INFO.phoneRaw}`}
+              className="flex items-center justify-center gap-2 text-xs text-emerald-200/80 hover:text-white transition-colors py-1 cursor-pointer"
+            >
               <Phone className="w-3.5 h-3.5" />
-              <span>113 334 433 221</span>
-            </div>
+              <span>{SITE_INFO.phone}</span>
+            </a>
           </div>
         </div>
       )}

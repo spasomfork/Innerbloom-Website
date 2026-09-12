@@ -59,7 +59,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate: _onNavigate, o
           </h1>
 
           <p className="text-xs sm:text-sm md:text-base text-gray-200 leading-relaxed font-normal max-w-3xl mx-auto drop-shadow">
-            Hi, I'm [Your Name]. As a somatic therapist, I specialize in helping women heal from trauma and anxiety by reconnecting with their bodies. With over [X years] of experience and a background in both psychology and somatic practices, I offer a holistic approach to mental health that integrates the body, mind, and spirit. My practice is built on the belief that true healing comes from within and that each individual has the capacity for growth and transformation.
+            Hi, I'm Dr. Evelyn Sterling, licensed somatic psychotherapist and founder of InnerBloom. For more than twelve years, I have walked alongside women reclaiming their calm, grounded essence from trauma, burnout, and chronic nervous system exhaustion. Integrating clinical psychotherapy with gentle somatic experiencing, breathwork, and polyvagal regulation, we cultivate a safe sanctuary where your body learns to release held tension and rediscover deep, lasting vitality.
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate: _onNavigate, o
               </div>
               <h3 className="text-xl font-bold text-[#1a2618]">Mission</h3>
               <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                At InnerBloom, we are guided by compassion, authenticity, and the belief in every woman's potential for growth. Our mission is to provide a nurturing space where clients can feel heard, supported, and empowered to embrace their emotional journey. Healing is not a linear path, but with patience and care, it is always possible.
+                To provide an unhurried, compassionate sanctuary where women can safely unwind chronic trauma, regulate their nervous systems, and reclaim embodiment. We walk beside each client with gentle pacing, honoring personal boundaries and restoring deep inner resilience.
               </p>
             </div>
 
@@ -86,7 +86,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate: _onNavigate, o
               </div>
               <h3 className="text-xl font-bold text-[#1a2618]">Vision</h3>
               <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                At InnerBloom, we are guided by compassion, authenticity, and the belief in every woman's potential for growth. Our mission is to provide a nurturing space where clients can feel heard, supported, and empowered to embrace their emotional journey. Healing is not a linear path, but with patience and care, it is always possible.
+                To pioneer an integrative standard of mental health where emotional recovery is experienced through bodily safety and neurological harmony. We envision empowered women moving beyond survival mode into enduring self-trust, clarity, and creative joy.
               </p>
             </div>
 
@@ -97,7 +97,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate: _onNavigate, o
               </div>
               <h3 className="text-xl font-bold text-[#1a2618]">Values</h3>
               <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                At InnerBloom, we are guided by compassion, authenticity, and the belief in every woman's potential for growth. Our mission is to provide a nurturing space where clients can feel heard, supported, and empowered to embrace their emotional journey. Healing is not a linear path, but with patience and care, it is always possible.
+                Rooted in embodied presence, trauma-informed respect, radical empathy, and holistic authenticity. We believe healing is never about fixing what is broken, but gently welcoming every part of yourself back into coherent wholeness.
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate: _onNavigate, o
             </div>
             <div className="md:col-span-6">
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                A few attractive lines that reveal your expertise and experience. Tell people what you are good at. You can focus on a few features and qualities that will create a good impression on all those who visit your website. Tell them what you are good at.
+                Over a decade of specialized clinical practice in Somatic Experiencing, mindfulness-based cognitive therapies, and nervous system recalibration. We blend neuroscientific precision with genuine therapeutic warmth to help you unburden generational stress and cultivate grounded emotional freedom.
               </p>
             </div>
           </div>

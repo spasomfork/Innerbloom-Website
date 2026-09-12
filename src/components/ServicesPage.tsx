@@ -72,11 +72,11 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate: _onNavig
 
         <div className="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-5">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white drop-shadow-md">
-            Services
+            Services & Modalities
           </h1>
 
           <p className="text-xs sm:text-sm md:text-base text-gray-200 leading-relaxed font-normal max-w-2xl mx-auto drop-shadow">
-            A brief introduction of your services. You can introduce this section here and then list down those in the area below. Let it be attractive enough to entice users.
+            Evidence-backed somatic psychotherapy and trauma-informed nervous system regulation tailored to guide women from chronic overwhelm into grounded bodily sovereignty.
           </p>
         </div>
       </section>
@@ -160,11 +160,11 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate: _onNavig
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto space-y-2 mb-14">
             <span className="text-xs font-bold tracking-widest text-[#d97736] uppercase">
-              OPTIONAL SUBTITLE
+              EMBODIED MODALITIES FOR WOMEN
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#1a2618]">Our Services</h2>
-            <p className="text-xs sm:text-sm text-gray-500 leading-relaxed pt-1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eros dolor pellentesque sed luctus dapibus lobortis orci.
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#1a2618]">Our Therapeutic Pathways</h2>
+            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed pt-1">
+              Every session is paced to your unique nervous system capacity. We combine clinical somatic experiencing, conscious breathwork, and boundary integration to nurture lasting relief.
             </p>
           </div>
 
@@ -226,8 +226,8 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate: _onNavig
             <h2 className="text-3xl sm:text-4xl font-bold text-[#1e2f1d]">
               What Our Clients Say
             </h2>
-            <p className="text-xs sm:text-sm text-gray-500">
-              Let real testimonials do the speaking! Pick the best and display them in this section.
+            <p className="text-xs sm:text-sm text-gray-600 max-w-xl mx-auto">
+              Real journeys of gentle somatic shifts, boundary reclaiming, and nervous system balance from women who have stepped into our practice.
             </p>
             <div className="w-12 h-1 bg-[#86ab79] mx-auto rounded-full mt-2" />
           </div>
@@ -273,8 +273,8 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate: _onNavig
             Take Action Now.
           </h2>
 
-          <p className="text-xs sm:text-sm text-emerald-100/90 leading-relaxed font-normal max-w-xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt nunc venenatis massa sagittis gravida at at arcu.
+          <p className="text-xs sm:text-sm text-emerald-50 leading-relaxed font-normal max-w-xl mx-auto drop-shadow-sm">
+            You don’t have to navigate overwhelm or carry physical tension alone. Reserve your initial 1-on-1 discovery session and begin feeling grounded in your body once again.
           </p>
 
           <div className="pt-3">
